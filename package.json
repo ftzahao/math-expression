@@ -1,0 +1,19 @@
+{
+  "name": "math-expression",
+  "module": "index.ts",
+  "type": "module",
+  "description": "解析数学表达式，不用手动找 bignumber.js 文档了",
+  "keywords": [
+    "bignumber.js"
+  ],
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.3.1"
+  }
+}
